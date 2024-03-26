@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mirror.blindquizv2">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".BQAuthenticationActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".BQSetQuestionActivity">
+
+        </activity>
+
+        <activity android:name=".BQExamHomeActivity">
+
+        </activity>
+
+        <activity android:name=".BQExamActivity">
+
+        </activity>
+
+        <activity android:name=".BQMainActivity">
+
+        </activity>
+
+        <activity android:name=".BQUserOptionsActivity">
+
+        </activity>
+
+        <activity android:name=".BQDetailedQuestionActivity">
+
+        </activity>
+
+        <activity android:name=".BQDetailedExamActivity">
+
+        </activity>
+    </application>
+
+</manifest>

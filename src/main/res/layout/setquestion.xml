@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical">
+
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:hint="Set Questions"
+            android:gravity="center_horizontal|center"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30dp"
+            android:textSize="30sp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <EditText
+            android:id="@+id/edit_subject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:background="@drawable/container"
+            android:gravity="center_horizontal|center"
+            android:layout_gravity="left"
+            android:minWidth="200dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Subject Name"
+            android:textAlignment="center"
+            >
+            <requestFocus />
+           
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <EditText
+            android:id="@+id/edit_qno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:background="@drawable/container"
+            android:gravity="center_horizontal|center"
+            android:layout_gravity="left"
+            android:minWidth="200dp"
+            android:layout_marginBottom="20dp"
+            android:hint="QuestionNo" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <EditText
+            android:id="@+id/edit_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:background="@drawable/container"
+            android:gravity="center_horizontal|center"
+            android:layout_gravity="left"
+            android:minWidth="200dp"
+            android:layout_marginBottom="20dp"
+            android:minLines="3"
+            android:hint="Question" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <EditText
+            android:id="@+id/edit_optiona"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:background="@drawable/container"
+            android:gravity="center_horizontal|center"
+            android:layout_gravity="left"
+            android:minWidth="200dp"
+            android:layout_marginBottom="20dp"
+            android:minLines="3"
+            android:hint="Option a" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <EditText
+            android:id="@+id/edit_optionb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:background="@drawable/container"
+            android:gravity="center_horizontal|center"
+            android:layout_gravity="left"
+            android:minWidth="200dp"
+            android:layout_marginBottom="20dp"
+            android:minLines="3"
+            android:hint="Option b" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <EditText
+            android:id="@+id/edit_optionc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:background="@drawable/container"
+            android:gravity="center_horizontal|center"
+            android:layout_gravity="left"
+            android:minWidth="200dp"
+            android:layout_marginBottom="20dp"
+            android:minLines="3"
+            android:hint="Option c" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <EditText
+            android:id="@+id/edit_optiond"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:background="@drawable/container"
+            android:gravity="center_horizontal|center"
+            android:layout_gravity="left"
+            android:minWidth="200dp"
+            android:layout_marginBottom="20dp"
+            android:minLines="3"
+            android:hint="Option d" />
+    </LinearLayout>
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_vertical">
+
+                <EditText
+                    android:id="@+id/edit_answer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:background="@drawable/container"
+                    android:gravity="center_horizontal|center"
+                    android:layout_gravity="left"
+                    android:minWidth="200dp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Answer"
+                    android:textAlignment="center">
+
+                   
+                </EditText>
+            </LinearLayout>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" android:gravity="center" android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/button_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:background="@android:drawable/btn_default"
+            android:gravity="center_horizontal|center"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+
+        </LinearLayout>
+</ScrollView>
+</LinearLayout>
